@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+	<TextView android:id="@+id/txtUser" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:text="nome du usuário aqui"
+		android:layout_marginBottom="10px"
+		android:layout_width="fill_parent"></TextView>
+
+
+	<EditText android:layout_below="@+id/txtUser" android:id="@+id/txtQuestion"
+		android:hint="sua pergunta" android:layout_width="fill_parent" android:layout_height="150px"></EditText>
+	
+	<Button android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/txtQuestion" android:id="@+id/button1" android:layout_width="wrap_content" android:text="Enviar"></Button>
+
+
+	
+</RelativeLayout>
